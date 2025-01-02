@@ -1,0 +1,75 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+}
+
+body {
+  background-color: #D9D9D9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+h4 {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+img {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 12px 16px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.btn-logout {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  background: #97E5F6;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 7px;
+  border: 2px solid #555252;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: #73DFF6;
+}
+
+.body-content {
+  padding-top: 20px;
+  margin-left: 21%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  height: 100%;
+}

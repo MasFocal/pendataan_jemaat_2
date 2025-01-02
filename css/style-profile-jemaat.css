@@ -1,0 +1,33 @@
+.body-content {
+    margin-left: 21%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn-edit {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    display: block;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #555252;
+    background-color: aliceblue;
+}
+
+.btn-edit:hover {
+    background-color: bisque;
+}
+
+#data-list {
+    margin-left: 20px;
+}
+
+#header-data {
+    padding-right: 0;
+    margin-left: 10px;
+}

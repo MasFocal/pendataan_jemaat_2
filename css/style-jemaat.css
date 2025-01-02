@@ -1,0 +1,25 @@
+#input{
+    font-size: 17px;
+}
+
+#radio-admin{
+    margin-right: 5px;
+}
+
+#radio-admin-2{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.radio{
+    font-size: 15px;
+}
+
+#data-list{
+    font-size: 18px;
+}
+
+#search-bar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

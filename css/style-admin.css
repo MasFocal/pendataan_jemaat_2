@@ -1,0 +1,71 @@
+#input{
+    font-size: 17px;
+}
+
+#radio-admin{
+    margin-right: 5px;
+}
+
+#radio-admin-2{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.radio{
+    font-size: 15px;
+}
+
+#data-list{
+    font-size: 18px;
+}
+
+.suggestions {
+    display: none;
+    width: 200px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1000;
+    overflow-y: hidden;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination {   
+    display: block;
+    padding-bottom: 45px;
+    margin-bottom: 20px;
+}   
+
+.pagination a {   
+    font-weight:bold;   
+    font-size:18px;   
+    color: black;   
+    float: left;   
+    padding: 8px 16px;   
+    text-decoration: none;   
+    border:1px solid black;  
+    margin: 2px; 
+}   
+
+.pagination a.active {   
+    background-color: rgba(175, 201, 244, 0.97);   
+}   
+
+.pagination a:hover:not(.active) {   
+    background-color: #87ceeb;
+}   
