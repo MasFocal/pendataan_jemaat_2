@@ -31,6 +31,7 @@ Berisi 3 Entitas yaitu Admin, Majelis, dan Jemaat.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
+##
 GIT
 
 git init
